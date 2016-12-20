@@ -1,3 +1,5 @@
+
+
 body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
@@ -37,4 +39,38 @@ ul li a {
   font-size: 24px;
   font-weight: bold;
   color: purple;
+}
+
+ul li a:hover {
+        -webkit-filter: brightness(90%);
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(stars.png);
+    vertical-align: bottom;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+input:last-child {
+    background: gold;
+}
+
+input:last-child:hover {
+    -webkit-filter: brightness(90%);
+}
+
+ol li:nth-of-type(2n) {
+  /*background-color: whitesmoke;*/
+}
+
+h2 + .user_review {
+    border-top: 1px solid black;
 }
