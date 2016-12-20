@@ -1,0 +1,40 @@
+body {
+  /* If the user cannot load the Arial font, the sans-serif font is used */
+  font-family: Arial, sans-serif;
+  background-color: #EEEEEE;
+
+  margin: 50px;
+}
+
+h1 {
+  font-size: 38px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ol {
+  list-style: decimal;
+}
+
+header > img {
+  width: 150px;
+}
+/* This selector selects ALL anchor tag children of ALL list elements that
+are children of an Unordered List element */
+ul li a {
+  text-decoration: none;
+  color: purple;
+}
+
+.user_review h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: purple;
+}
