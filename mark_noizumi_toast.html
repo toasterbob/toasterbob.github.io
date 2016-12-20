@@ -21,15 +21,36 @@
   <body>
       <header>
          <img src = "images/Aa.png"/>
+         <nav>
           <ul>
             <li><a href="#description">Description</a></li>
             <li><a href="#ingredients">Ingredients</a></li>
             <li><a href="#directions">Directions</a></li>
           </ul>
+        </nav>
       </header>
+
+      <aside>
+
+      <h2 id="ingredients" >Ingredients</h2>
+
+
+      <ul class="ingredients-list">
+        <li>bread</li>
+        <li>butter</li>
+        <li>optional: peanut butter</li>
+        <li>optional: jam</li>
+        <li>optional: cheese (preferably not with the above options)</li>
+        <li>mental fortitude</li>
+        <li>the ability to persist in the face of adversity</li>
+        <li>hunger (for knowledge and/or food)</li>
+      </ul>
+    </aside>
+
+      <section>
       <h1>Toast! How to put bread in a toaster and make it toasty.</h1>
       <br>
-      <img src = "images/toast.jpg" style="width:350px;height:350px;"/>
+      <img src = "images/toast.jpg" style="width:350px;height:350px;border:0;padding:0;"/>
       <h2><h2>
         <br>
       <h2 id=description>Description</h2>
@@ -39,22 +60,10 @@
           <a href="https://en.wikipedia.org/wiki/Toast">Wikipedia History Toast</a>
         </p>
         <br>
-        <h2 id="ingredients" >Ingredients</h2>
 
-        <ul class="ingredients-list">
-          <li>bread</li>
-          <li>butter</li>
-          <li>optional: peanut butter</li>
-          <li>optional: jam</li>
-          <li>optional: cheese (preferably not with the above options)</li>
-          <li>mental fortitude</li>
-          <li>the ability to persist in the face of adversity</li>
-          <li>hunger (for knowledge and/or food)</li>
-        </ul>
-        <br>
 
-        <h2 id="directions">Directions</h2>
-        <ol>
+        <h2 >Directions</h2>
+        <ol class="directions">
           <li>
             The quest for fire is one of mankind's greatest struggles.  Fire is warmth, safety, security, and a way to make toast.
             The struggle is real.  You must be prepared to bang two stones together to create sparks or rub two sticks together until
@@ -92,7 +101,7 @@
        <label for="name">Name</label>
        <input id="name" type="text" name="name">
 
-       <label for="rating">Rating</label>
+       <label for="rating"></label>
        1<input type="radio" name="rating" value="1" checked>
        2<input type="radio" name="rating" value="2">
        3<input type="radio" name="rating" value="3">
@@ -113,12 +122,13 @@
          <option value="Professional Chef">Professional Chef</option>
        </select>
 
-       <label>Review
+       <label>
          <textarea id="review" name="review" cols="30" rows="10"></textarea>
        </label>
 
        <input type="submit" value="Submit Review">
      </form>
+ </section>
  </section>
 
 

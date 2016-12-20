@@ -5,12 +5,13 @@ body {
   font-family: Arial, sans-serif;
   background-color: #EEEEEE;
 
-  margin: 50px;
+  margin: 0 auto;
+  width: 900px;
 }
 
 h1 {
   font-size: 38px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 h2 {
@@ -26,7 +27,7 @@ ol {
 }
 
 header > img {
-  width: 150px;
+  width: 100px;
 }
 /* This selector selects ALL anchor tag children of ALL list elements that
 are children of an Unordered List element */
@@ -71,6 +72,61 @@ ol li:nth-of-type(2n) {
   /*background-color: whitesmoke;*/
 }
 
+
 h2 + .user_review {
     border-top: 1px solid black;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li {
+    display:  inline-block;
+}
+
+nav ul li a {
+    padding: 20px;
+    display: block;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  vertical-align: top;
+  /*border: 1px solid gray;*/
+}
+
+.ingredients-list li {
+ margin: 15px 0px;
+ /*padding: 2px; */
+
+}
+
+.directions li {
+  margin: 25px 0px;
+}
+
+input[type="text"], select {
+  display: block;
+  width: 175px;
+}
+
+select {
+  margin: 10px 0;
+  width: 180px;
+}
+
+textarea {
+  width: 350px;
+}
+
+label {
+  display: block;
 }
